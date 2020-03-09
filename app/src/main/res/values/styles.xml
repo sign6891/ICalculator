@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+    <style name="LightThemeTextViewFormula">
+        <item name="android:fontFamily">@font/sf_pro</item>
+        <item name="android:textColor">@android:color/background_dark</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="LightThemeTextViewResult">
+        <item name="android:fontFamily">@font/sf_pro</item>
+        <item name="android:textColor">@android:color/background_dark</item>
+        <item name="android:textSize">50sp</item>
+    </style>
+
+    <style name="LightTheme" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">74dp</item>
+        <item name="android:layout_height">74dp</item>
+        <item name="android:textColor">@android:color/background_dark</item>
+        <item name="android:fontFamily">@font/sf_pro</item>
+
+    </style>
+
+    <style name="LightTheme.LightThemeButtonNumber">
+        <item name="android:background">@drawable/buttonshapenumber</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="LightTheme.LightThemeButtonSings">
+        <item name="android:background">@drawable/buttonshape</item>
+        <item name="android:textColor">@color/colorButtonResult</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="LightTheme.LightThemeButtonZero">
+        <item name="android:background">@drawable/buttonshapenumber</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_width">153dp</item>
+    </style>
+
+    <style name="LightTheme.LightThemeButtonEqual">
+        <item name="android:background">@drawable/button_result</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="LightTheme.DarkThemeButtonNumber">
+        <item name="android:background">@drawable/dark_button_shape_number</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+
+</resources>

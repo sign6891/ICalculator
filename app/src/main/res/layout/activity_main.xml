@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linerLayout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ibBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/ic_brightness_low_black_24dp"
+            android:gravity="start" />
+
+        <TextView
+            android:id="@+id/tvFormula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:text="0"
+            android:gravity="end"
+            style="@style/LightThemeTextViewFormula" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        android:gravity="end"
+        android:text="0"
+        style="@style/LightThemeTextViewResult"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:baselineAligned="false"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btClear"
+            android:layout_marginEnd="@dimen/text_small_margin"
+            android:text="@string/c"
+            style="@style/LightTheme.LightThemeButtonSings" />
+
+        <Button
+            android:id="@+id/btDeleteCharacter"
+            android:layout_marginEnd="@dimen/text_small_margin"
+            android:text="@string/btDeleteCharacter"
+            style="@style/LightTheme.LightThemeButtonSings"  />
+
+        <Button
+            android:id="@+id/btPlusMinus"
+            android:layout_marginEnd="@dimen/text_small_margin"
+            android:text="@string/plus_minus"
+            style="@style/LightTheme.LightThemeButtonSings"  />
+
+        <Button
+            android:id="@+id/btDivide"
+            android:text="@string/divide"
+            style="@style/LightTheme.LightThemeButtonSings"  />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_small_margin"
+        android:baselineAligned="false"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btSeven"
+            android:layout_marginEnd="@dimen/text_small_margin"
+            android:text="@string/_7"
+            style="@style/LightTheme.LightThemeButtonNumber"/>
+
+        <Button
+            android:id="@+id/btEight"
+            android:layout_marginEnd="@dimen/text_small_margin"
+            android:text="@string/_8"
+            style="@style/LightTheme.LightThemeButtonNumber"
+            />
+
+        <Button
+            android:id="@+id/btNine"
+            android:layout_marginEnd="@dimen/text_small_margin"
+            android:text="@string/_9"
+            style="@style/LightTheme.LightThemeButtonNumber" />
+
+        <Button
+            android:id="@+id/btMultiply"
+            android:text="@string/multiplay"
+            style="@style/LightTheme.LightThemeButtonSings"  />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_small_margin"
+        android:baselineAligned="false"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btFour"
+            android:layout_marginEnd="@dimen/text_small_margin"
+            android:text="@string/_4"
+            style="@style/LightTheme.LightThemeButtonNumber"/>
+
+        <Button
+            android:id="@+id/btFive"
+            android:layout_marginEnd="@dimen/text_small_margin"
+            android:text="@string/_5"
+            style="@style/LightTheme.LightThemeButtonNumber" />
+
+        <Button
+
+            android:id="@+id/btSix"
+            android:layout_marginEnd="@dimen/text_small_margin"
+            android:text="@string/_6"
+            style="@style/LightTheme.LightThemeButtonNumber" />
+
+        <Button
+            android:id="@+id/btSubtract"
+            android:text="@string/subtract"
+            style="@style/LightTheme.LightThemeButtonSings"  />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_small_margin"
+        android:baselineAligned="false"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btOne"
+            android:layout_marginEnd="@dimen/text_small_margin"
+            android:text="@string/_1"
+            style="@style/LightTheme.LightThemeButtonNumber" />
+
+        <Button
+            android:id="@+id/btTwo"
+            android:layout_marginEnd="@dimen/text_small_margin"
+            android:text="@string/_2"
+            style="@style/LightTheme.LightThemeButtonNumber" />
+
+        <Button
+            android:id="@+id/btThree"
+            android:layout_marginEnd="@dimen/text_small_margin"
+            android:text="@string/_3"
+            style="@style/LightTheme.LightThemeButtonNumber" />
+
+        <Button
+            android:id="@+id/btAdd"
+            android:text="@string/add"
+            style="@style/LightTheme.LightThemeButtonSings"  />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_small_margin"
+        android:baselineAligned="false"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btZero"
+            android:layout_marginEnd="@dimen/text_small_margin"
+            android:text="@string/_0"
+            style="@style/LightTheme.LightThemeButtonZero"/>
+
+
+        <Button
+            android:id="@+id/btDot"
+            android:layout_marginEnd="@dimen/text_small_margin"
+            android:text="@string/dot"
+            style="@style/LightTheme.LightThemeButtonNumber" />
+
+        <Button
+            android:id="@+id/btEqual"
+            android:text="@string/equal"
+            style="@style/LightTheme.LightThemeButtonEqual" />
+
+    </LinearLayout>
+
+</LinearLayout>
